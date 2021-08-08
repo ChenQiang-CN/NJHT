@@ -1,0 +1,298 @@
+import os
+
+import gdal,osr
+import h5py
+import numpy as np
+
+
+# def resampling(source_file, target_file, scale=1.0):
+#     """
+#     影像重采样
+#     :param source_file: 源文件
+#     :param target_file: 输出影像
+#     :param scale: 像元缩放比例
+#     :return:
+#     """
+#     dataset = gdal.Open(source_file, gdal.gdalconst.GA_ReadOnly)
+#     band_count = dataset.RasterCount  # 波段数
+#
+#     if band_count == 0 or not scale > 0:
+#         print("参数异常")
+#         return
+#
+#     cols = dataset.RasterXSize  # 列数
+#     rows = dataset.RasterYSize  # 行数
+#     cols = int(cols * scale)  # 计算新的行列数
+#     rows = int(rows * scale)
+#
+#     geotrans = list(dataset.GetGeoTransform())
+#     print(dataset.GetGeoTransform())
+#     print(geotrans)
+#     geotrans[1] = geotrans[1] / scale  # 像元宽度变为原来的scale倍
+#     geotrans[5] = geotrans[5] / scale  # 像元高度变为原来的scale倍
+#     print(geotrans)
+#
+#     if os.path.exists(target_file) and os.path.isfile(target_file):  # 如果已存在同名影像
+#         os.remove(target_file)  # 则删除之
+#
+#     band1 = dataset.GetRasterBand(1)
+#     data_type = band1.DataType
+#     target = dataset.GetDriver().Create(target_file, xsize=cols, ysize=rows, bands=band_count,
+#                                         eType=data_type)
+#     target.SetProjection(dataset.GetProjection())  # 设置投影坐标
+#     target.SetGeoTransform(geotrans)  # 设置地理变换参数
+#     total = band_count + 1
+#     for index in range(1, total):
+#         # 读取波段数据
+#         print("正在写入" + str(index) + "波段")
+#         data = dataset.GetRasterBand(index).ReadAsArray(buf_xsize=cols, buf_ysize=rows)
+#         out_band = target.GetRasterBand(index)
+#         # out_band.SetNoDataValue(dataset.GetRasterBand(index).GetNoDataValue())
+#         out_band.WriteArray(data)  # 写入数据到新影像中
+#         out_band.FlushCache()
+#         out_band.ComputeBandStats(False)  # 计算统计信息
+#     print("正在写入完成")
+#     del dataset
+#     del target
+from osgeo import ogr
+
+
+def resample(in_tif_path, cell_size, out_tif_path=None, return_mode='TIFF'):
+
+    if isinstance(in_tif_path, gdal.Dataset):
+        ds = in_tif_path
+    else:
+        ds = gdal.Open(in_tif_path)
+
+    # 栅格单元长宽
+    im_geotrans = ds.GetGeoTransform()
+    pixel_width, pixel_height = im_geotrans[1], im_geotrans[5]
+    # 长宽变化的倍数，5 代表 扩大五倍， 那么读取的行列要变为之前的 五分之一
+    width_times = abs(cell_size / pixel_width)
+    height_times = abs(cell_size / pixel_height)
+    # 图像的长宽
+    im_width = ds.RasterXSize  # 栅格矩阵的列数
+    im_height = ds.RasterYSize  # 栅格矩阵的行数
+    # 计算读取的图像的长宽栅格数目
+    new_im_width = int(im_width / width_times)
+    new_im_height = int(im_height / height_times)
+    # 获取重采样之后的数据
+    im_data = []
+    for i in range(1, ds.RasterCount+1):
+        band_i = ds.GetRasterBand(i)
+        data_i = band_i.ReadAsArray(buf_xsize=new_im_width, buf_ysize=new_im_height)
+        im_data.append(data_i)
+    # 多波段数据和单波段数据分开处理
+    if len(im_data) == 1:
+        im_data = np.array(im_data[0])
+    else:
+        im_data = np.array(im_data)
+    # 获得新的 tif 的各个参数 GetGeoTransform
+    new_im_geotrans = list(im_geotrans)
+    new_im_geotrans[1] = cell_size
+    new_im_geotrans[5] = -cell_size
+    im_bands = ds.RasterCount
+    im_proj = ds.GetProjection()  # 获取投影信息
+    # 保存数据
+    # 获取原数据中的无效值
+
+    write_tiff(im_data, new_im_geotrans, im_proj, out_tif_path, no_data_value=-9999)
+
+def clip_by_shp(input_path,output_path,shp_path, bg_value=-9999):
+    # 获取shp范围
+    driver = ogr.GetDriverByName("ESRI Shapefile")  # 数据格式的驱动
+    shp_ds = driver.Open(shp_path)
+    shp_layer = shp_ds.GetLayer(0)
+    shp_extent = shp_layer.GetExtent()
+    lonMin = shp_extent[0]
+    lonMax = shp_extent[1]
+    latMin = shp_extent[2]
+    latMax = shp_extent[3]
+    outputBounds = (lonMin, latMin, lonMax, latMax)
+
+    # 获取tif分辨率
+    tif_ds = gdal.Open(input_path, gdal.GA_ReadOnly)
+    xRes = abs(tif_ds.GetGeoTransform()[1])  # 获取栅格分辨率
+    yRes = abs(tif_ds.GetGeoTransform()[1])
+
+    # ds = gdal.Warp(output_path, input_path, format='GTiff', dstNodata=bg_value, cutlineDSName=shp_path,
+    #                cropToCutline=False)
+
+    ds = gdal.Warp(output_path, input_path, format='GTiff', outputBounds=outputBounds, dstNodata=bg_value,
+                   cutlineDSName=shp_path, cropToCutline=False, xRes=xRes, yRes=yRes)
+
+
+def reproject_images(inputfile_path, outputfile_path):
+    # 获取输出影像信息
+    inputrasfile = gdal.Open(inputfile_path, gdal.GA_ReadOnly)
+    inputProj = inputrasfile.GetProjection()
+    # 获取参考影像信息
+    referencefile = gdal.Open(inputfile_path, gdal.GA_ReadOnly)
+    referencefileProj = referencefile.GetProjection()
+    referencefileTrans = referencefile.GetGeoTransform()
+    bandreferencefile = referencefile.GetRasterBand(1)
+    Width= referencefile.RasterXSize
+    Height = referencefile.RasterYSize
+    nbands = referencefile.RasterCount
+    # 创建重采样输出文件（设置投影及六参数）
+    driver = gdal.GetDriverByName('GTiff')
+    output = driver.Create(outputfile_path, Width, Height, nbands, bandreferencefile.DataType)
+    output.SetGeoTransform(referencefileTrans)
+    output.SetProjection(referencefileProj)
+    # 参数说明 输入数据集、输出文件、输入投影、参考投影、重采样方法(最邻近内插\双线性内插\三次卷积等)、回调函数
+    gdal.ReprojectImage(inputrasfile, output, inputProj, referencefileProj, gdal.gdalconst.GRA_Bilinear, 0.0, 0.0, )
+
+def read_tiff(path):
+    """
+    读取 TIFF 文件
+    :param path: str，unicode，dataset
+    :return:
+    """
+    # 参数类型检查
+    if isinstance(path, gdal.Dataset):
+        dataset = path
+    else:
+        dataset = gdal.Open(path)
+
+    if dataset:
+        im_width = dataset.RasterXSize  # 栅格矩阵的列数
+        im_height = dataset.RasterYSize  # 栅格矩阵的行数
+        im_bands = dataset.RasterCount  # 波段数
+        im_proj = dataset.GetProjection()  # 获取投影信息
+        im_geotrans = dataset.GetGeoTransform()  # 获取仿射矩阵信息
+        im_data = dataset.ReadAsArray(0, 0, im_width, im_height)  # 获取数据
+        return im_data, im_width, im_height, im_bands, im_geotrans, im_proj
+    else:
+        print('error in read tiff')
+
+def write_tiff(im_data, im_geotrans, im_proj, out_path=None, no_data_value=None, return_mode='TIFF'):
+    """
+    写dataset（需要一个更好的名字）
+    :param im_data: 输入的矩阵
+    :param im_geotrans: 仿射矩阵
+    :param im_proj: 坐标系
+    :param out_path: 输出路径，str，None
+    :param no_data_value: 无效值 ；num_list ，num
+    :param return_mode: TIFF : 保存为本地文件， MEMORY：保存为缓存
+    :return: 当保存为缓存的时候，输出为 dataset
+    """
+
+    # FIXME  no_data_value 要注意类型
+
+    # 保存类型选择
+    if 'int8'in im_data.dtype.name or 'bool'in im_data.dtype.name:
+        datatype = gdal.GDT_Byte
+    elif 'int16' in im_data.dtype.name:
+        datatype = gdal.GDT_Int16
+    else:
+        datatype = gdal.GDT_Float32
+    # 矩阵波段识别
+    if len(im_data.shape) == 3:
+        im_bands, im_height, im_width = im_data.shape
+    elif len(im_data.shape) == 2:
+        # 统一处理为三维矩阵
+        im_data = np.array([im_data], dtype=im_data.dtype)
+        im_bands, im_height, im_width = im_data.shape
+    else:
+        im_bands, (im_height, im_width) = 1, im_data.shape
+    # 根据存储类型的不同，获取不同的驱动
+    if out_path:
+        dataset = gdal.GetDriverByName('GTiff').Create(out_path, im_width, im_height, im_bands, datatype)
+    else:
+        dataset = gdal.GetDriverByName('MEM').Create('', im_width, im_height, im_bands, datatype)
+    # 写入数据
+    if dataset is not None:
+        dataset.SetGeoTransform(im_geotrans)
+        dataset.SetProjection(im_proj)
+    # 写入矩阵
+    for i in range(im_bands):
+        dataset.GetRasterBand(i + 1).WriteArray(im_data[i])
+        # 写入无效值
+        if no_data_value is not None:
+            # 当每个图层有一个无效值的时候
+            if isinstance(no_data_value, list) or isinstance(no_data_value, tuple):
+                if no_data_value[i] is not None:
+                    dataset.GetRasterBand(i + 1).SetNoDataValue(no_data_value[i])
+            else:
+                dataset.GetRasterBand(i + 1).SetNoDataValue(no_data_value)
+    # 根据返回类型的不同，返回不同的值
+    if return_mode.upper() == 'MEMORY':
+        return dataset
+    elif return_mode.upper == 'TIFF':
+        del dataset
+
+if __name__ == "__main__":
+    # hdf_to_tif_batch('D:\算法培训\exercise 2\data\HDF')
+    input_path = r"D:\算法培训\exercise 2\data\HDF\202106280700.hdf"
+    out_file = r'D:\算法培训\exercise 2\data\HDF\202106280700.tif'
+
+    tif_files = []
+    with h5py.File(input_path, 'r') as hdf_file:
+        extend = hdf_file.attrs['extend']
+        band_name = list(hdf_file.keys())
+
+        for i in range(len(band_name)):
+            out_sub = out_file.replace('.tif', f'_{band_name[i]}.tif')
+            data = hdf_file[band_name[i]][()]
+
+            gtiff_driver = gdal.GetDriverByName("GTiff")
+            out_ds = gtiff_driver.Create(out_sub, data.shape[1], data.shape[0], 1, gdal.GDT_Float32)
+            # out_ds = gtiff_driver.Create(out_sub, 1, gdal.GDT_Float32)
+            # x_res = (extend[0] - extend[2]) / data.shape[0]
+            # y_res = (extend[1] - extend[3]) / data.shape[1]
+            if i == 0 or i == 1 or i == 3:
+                x_res = 0.01
+                y_res = 0.01
+            elif i == 2:
+                x_res = 0.005
+                y_res = 0.005
+            else:
+                x_res = 0.02
+                y_res = 0.02
+            geoTrans = [extend[0], x_res, 0, extend[3], 0, -y_res]
+
+            sr = osr.SpatialReference()
+            sr.ImportFromEPSG(4326)
+
+            out_ds.SetProjection(sr.ExportToWkt())
+            out_ds.SetGeoTransform(geoTrans)
+
+            out_band = out_ds.GetRasterBand(1)
+            out_band.WriteArray(data)
+            del out_ds
+
+            tif_files.append(out_sub)
+
+    resample_list = []
+    for i in range(len(tif_files)):
+        input_tif = tif_files[i]
+        out_tif = input_tif.replace('.tif', '_resample.tif')
+
+        # reproject_images(input_tif, out_tif)
+        resample(input_tif, 0.02, out_tif)
+        resample_list.append(out_tif)
+
+    # for i in range(len(resample_list)):
+    #     input_path = resample_list[i]
+    #     output_path = input_path.replace('.tif', '_clip.tif')
+    #     shp_path = r"D:\算法培训\exercise 2\data\SHP\CHN.shp"
+    #     clip_by_shp(input_path,output_path,shp_path)
+
+    #云检测
+    b03_path = r"D:\算法培训\exercise 2\data\HDF\202106280700_B03_resample_clip.tif"
+    b03_data, b03_width, b03_height, b03_bands, b03_geotrans, b03_proj = read_tiff(b03_path)
+    b05_path = r"D:\算法培训\exercise 2\data\HDF\202106280700_B05_resample_clip.tif"
+    b05_data, b05_width, b05_height, b05_bands, b05_geotrans, b05_proj = read_tiff(b05_path)
+
+    a = b05_data > 2800
+    b = b03_data > 1200
+    c = (a + b) != 0
+
+    out_path = r"D:\算法培训\exercise 2\data\HDF\cloud_detection.tif"
+    write_tiff(c, b03_geotrans, b03_proj, out_path=out_path, no_data_value=None, return_mode='TIFF')
+
+    # NDVI未完成
+
+    print('ok')
+
+
