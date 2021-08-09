@@ -54,6 +54,8 @@ def ImgRes(input_file, input_path, output_file, output_path, ResRatio):
     band_in = ds_in.GetRasterBand(1)
     # nan_in = band_in.GetNoDataValue()
 
+
+
     width_out = int(width_in / ResRatio)
     height_out = int(height_in / ResRatio)
     trans_out = list(trans_in)
