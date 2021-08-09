@@ -1,0 +1,32 @@
+import os
+import h5py
+import osr
+import ogr
+from osgeo import gdal,gdalconst
+from osgeo import gdal_array as ga
+import numpy as np
+# 1.hdf各波段数据的to tiff
+inputHdf_path = (r"E:/zuoye/202106280700.hdf")
+with h5py.File(path_hdf,'r') as hdf_file:
+    extend = hdf_file.attrs["exrend"]
+    band_name =list(hdf_file.keys())
+    #data = hdf_file[band_name[-1]][()]
+    for i in band_name:
+        data = hdf_file[i][()]
+        gtiff_driver = gdal.GetDriverByName('GTiff')
+        name_tif = i + '.tif'
+        path_tif = os.path.jion(path_tem,name_tif)
+        path_tiflist_tem.append(path_tif)
+        out _ds = gtiff_driver.Create(path_tif,datd.shape[1],data.shape[0],1,gdal.GDT_Float32)
+        x = (exrend[1] - extend[0] / data.shape[1])
+        y = - (extend[3] - extend[2] / data.shape[0])
+        geoTrans = [extend[0],a,0,extend[3],0,b]
+        sr = osr.SpatialReference()
+        sr.ImportFromEPSG()
+        out_ds.SetProjection(sr.ExportTowkt())
+        out_ds.SetGeoTransform(geoTrans)
+        out_band = out_ds.GetRasterBand(1)
+        out_band.WriteArray(data)
+        del out _ds
+return path_tiflist_tem
+
