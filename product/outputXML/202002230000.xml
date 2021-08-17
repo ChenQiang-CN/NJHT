@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml identify="NDVI_H8_AHI">
+	<log>
+		<status>1</status>
+		<info>Success!</info>
+	</log>
+	<outFiles>
+		<region identify="QHS">
+			<file type=".jpg">F:\homework\exercise3\result\NDVI_H8_AHI\COAY\202101\202101010000\QHS\VGT_NDVI_ZCUR_202101010000_COAY_H8_AHI_QHS.jpg</file>
+			<file type=".xlsx">F:\homework\exercise3\result\NDVI_H8_AHI\COAY\202101\202101010000\VGT_NDVI_XCUR_202101010000_COAY_H8_AHI.xls</file>
+		</region>
+		<mosaicFile/>
+		<extent/>
+	</outFiles>
+	<tables/>
+</xml>
