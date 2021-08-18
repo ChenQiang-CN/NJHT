@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml identify="Stock_Capacity">
+    <input des="输入文件" identify="inputFile" type="string">D:\study\算法培训\data\VGT_NPP_RCUR_2020010100000000_COAY_CIMISS_QHS.tif</input>
+    <input des="区域信息" identify="areaID" type="string">QHS</input>
+    <input des="期次" identify="issue" type="string">202101010000</input>
+    <input des="周期" identify="cycle" type="string">COOD</input>
+    <output des="输出目录" identify="outFolder" type="string">E:\data\YG</output>
+    <output des="输出xml路径" identify="outXMLPath" type="string">D:\study\算法培训\data\output\202002230000.xml</output>
+    <output des="输出log路径" identify="outLogPath" type="string">D:\study\算法培训\data\output\202002230000.log</output>
+</xml>
