@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ProdCfg>
+	<Plugin ProdName="Stock_Capacity">
+		<ProdDesp>载畜量</ProdDesp>
+		<Statistic>
+			<Mode>1</Mode>
+			<ValueRange>0,150</ValueRange>
+			<CharactTableName>htht_character_statistics</CharactTableName>
+			<ReclassTableName>htht_reclass_statistics</ReclassTableName>
+		</Statistic>
+		<ReMaps Unit="" FillValue="0.0">
+			<ReMap id="1" MinV="0" MaxV="10" ReV="1" Color="194,82,60" Label="0-10" />
+			<ReMap id="2" MinV="10" MaxV="20" ReV="2" Color="219,122,37" Label="10-20" />
+			<ReMap id="3" MinV="20" MaxV="30" ReV="3" Color="240,180,17" Label="20-30" />
+			<ReMap id="4" MinV="30" MaxV="50" ReV="4" Color="252,240,3" Label="30-50" />
+			<ReMap id="5" MinV="50" MaxV="60" ReV="5" Color="123,237,0" Label="50-60" />
+			<ReMap id="6" MinV="60" MaxV="80" ReV="6" Color="6,212,27" Label="60-80" />
+			<ReMap id="7" MinV="80" MaxV="100" ReV="7" Color="27,168,124" Label="80-100" />
+			<ReMap id="8" MinV="100" MaxV="110" ReV="8" Color="24,117,140" Label="100-110" />
+			<ReMap id="9" MinV="110" MaxV="120" ReV="9" Color="11,44,122" Label="110-120" />
+		</ReMaps>
+		<OutTimeMin>60</OutTimeMin>
+		<ExePath>None</ExePath>
+	</Plugin>
+    <Plugin ProdName="NDVI">
+		<ProdDesp>植被指数</ProdDesp>
+		<Statistic>
+			<Mode>3</Mode>
+			<ValueRange>-1,1</ValueRange>
+			<CharactTableName>htht_character_statistics</CharactTableName>
+			<ReclassTableName>htht_reclass_statistics</ReclassTableName>
+		</Statistic>
+		<ReMaps Unit="" FillValue="-9999">
+			<ReMap id="1" MinV="-1" MaxV="0" ReV="1" Color="194,82,60" Label="-1-0" />
+			<ReMap id="2" MinV="0" MaxV="0.1" ReV="2" Color="214,111,43" Label="0-0.1" />
+			<ReMap id="3" MinV="0.1" MaxV="0.2" ReV="3" Color="237,161,19" Label="0.1-0.2" />
+			<ReMap id="4" MinV="0.2" MaxV="0.3" ReV="4" Color="245,202,12" Label="0.2-0.3" />
+			<ReMap id="5" MinV="0.3" MaxV="0.4" ReV="5" Color="255,255,0" Label="0.3-0.4" />
+			<ReMap id="6" MinV="0.4" MaxV="0.5" ReV="6" Color="123,237,0" Label="0.4-0.5" />
+			<ReMap id="7" MinV="0.5" MaxV="0.6" ReV="7" Color="0,219,0" Label="0.5-0.6" />
+			<ReMap id="8" MinV="0.6" MaxV="0.7" ReV="8" Color="20,186,95" Label="0.6-0.7" />
+			<ReMap id="9" MinV="0.7" MaxV="0.8" ReV="9" Color="32,153,143" Label="0.7-0.8" />
+			<ReMap id="10" MinV="0.8" MaxV="0.9" ReV="10" Color="22,103,138" Label="0.8-0.9" />
+			<ReMap id="11" MinV="0.9" MaxV="1.0" ReV="11" Color="11,44,122" Label="0.9-1.0" />
+		</ReMaps>
+		<OutTimeMin>60</OutTimeMin>
+		<ExePath>None</ExePath>
+	</Plugin>
+</ProdCfg>
