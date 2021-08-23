@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml identify="NDVI">
+	<log>
+		<status>1</status>
+		<info>Success!</info>
+	</log>
+	<outFiles>
+		<region identify="QHS">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\QHS\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIQHS.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\QHS\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_QHS.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\QHS\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_QHS.jpg</file>
+		</region>
+		<region identify="A00000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A00000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIA00000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A00000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_A00000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A00000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_A00000.jpg</file>
+		</region>
+		<region identify="A06000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A06000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIA06000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A06000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_A06000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A06000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_A06000.jpg</file>
+		</region>
+		<region identify="A02000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A02000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIA02000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A02000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_A02000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A02000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_A02000.jpg</file>
+		</region>
+		<region identify="A03000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A03000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIA03000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A03000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_A03000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A03000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_A03000.jpg</file>
+		</region>
+		<region identify="A23000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A23000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIA23000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A23000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_A23000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A23000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_A23000.jpg</file>
+		</region>
+		<region identify="A04000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A04000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIA04000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A04000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_A04000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A04000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_A04000.jpg</file>
+		</region>
+		<region identify="A05000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A05000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIA05000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A05000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_A05000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A05000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_A05000.jpg</file>
+		</region>
+		<region identify="A21000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A21000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIA21000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A21000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_A21000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\A21000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_A21000.jpg</file>
+		</region>
+		<region identify="B00000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B00000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIB00000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B00000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_B00000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B00000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_B00000.jpg</file>
+		</region>
+		<region identify="B03000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B03000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIB03000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B03000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_B03000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B03000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_B03000.jpg</file>
+		</region>
+		<region identify="B02000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B02000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIB02000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B02000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_B02000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B02000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_B02000.jpg</file>
+		</region>
+		<region identify="B23000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B23000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIB23000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B23000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_B23000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B23000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_B23000.jpg</file>
+		</region>
+		<region identify="B25000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B25000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIB25000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B25000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_B25000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B25000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_B25000.jpg</file>
+		</region>
+		<region identify="B24000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B24000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIB24000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B24000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_B24000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B24000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_B24000.jpg</file>
+		</region>
+		<region identify="B22000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B22000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIB22000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B22000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_B22000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\B22000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_B22000.jpg</file>
+		</region>
+		<region identify="C00000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\C00000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIC00000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\C00000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_C00000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\C00000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_C00000.jpg</file>
+		</region>
+		<region identify="C23000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\C23000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIC23000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\C23000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_C23000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\C23000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_C23000.jpg</file>
+		</region>
+		<region identify="C21000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\C21000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIC21000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\C21000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_C21000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\C21000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_C21000.jpg</file>
+		</region>
+		<region identify="C24000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\C24000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIC24000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\C24000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_C24000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\C24000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_C24000.jpg</file>
+		</region>
+		<region identify="C22000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\C22000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIC22000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\C22000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_C22000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\C22000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_C22000.jpg</file>
+		</region>
+		<region identify="D00000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\D00000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHID00000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\D00000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_D00000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\D00000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_D00000.jpg</file>
+		</region>
+		<region identify="D24000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\D24000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHID24000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\D24000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_D24000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\D24000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_D24000.jpg</file>
+		</region>
+		<region identify="D23000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\D23000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHID23000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\D23000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_D23000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\D23000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_D23000.jpg</file>
+		</region>
+		<region identify="D01000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\D01000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHID01000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\D01000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_D01000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\D01000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_D01000.jpg</file>
+		</region>
+		<region identify="D22000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\D22000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHID22000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\D22000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_D22000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\D22000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_D22000.jpg</file>
+		</region>
+		<region identify="E00000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E00000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIE00000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E00000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_E00000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E00000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_E00000.jpg</file>
+		</region>
+		<region identify="E22000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E22000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIE22000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E22000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_E22000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E22000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_E22000.jpg</file>
+		</region>
+		<region identify="E25000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E25000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIE25000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E25000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_E25000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E25000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_E25000.jpg</file>
+		</region>
+		<region identify="E24000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E24000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIE24000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E24000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_E24000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E24000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_E24000.jpg</file>
+		</region>
+		<region identify="E23000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E23000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIE23000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E23000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_E23000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E23000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_E23000.jpg</file>
+		</region>
+		<region identify="E21000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E21000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIE21000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E21000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_E21000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\E21000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_E21000.jpg</file>
+		</region>
+		<region identify="F00000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F00000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIF00000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F00000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_F00000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F00000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_F00000.jpg</file>
+		</region>
+		<region identify="F21000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F21000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIF21000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F21000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_F21000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F21000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_F21000.jpg</file>
+		</region>
+		<region identify="F26000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F26000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIF26000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F26000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_F26000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F26000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_F26000.jpg</file>
+		</region>
+		<region identify="F22000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F22000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIF22000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F22000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_F22000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F22000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_F22000.jpg</file>
+		</region>
+		<region identify="F24000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F24000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIF24000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F24000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_F24000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F24000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_F24000.jpg</file>
+		</region>
+		<region identify="F25000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F25000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIF25000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F25000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_F25000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F25000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_F25000.jpg</file>
+		</region>
+		<region identify="F23000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F23000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIF23000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F23000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_F23000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\F23000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_F23000.jpg</file>
+		</region>
+		<region identify="G00000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G00000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIG00000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G00000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_G00000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G00000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_G00000.jpg</file>
+		</region>
+		<region identify="G25000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G25000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIG25000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G25000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_G25000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G25000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_G25000.jpg</file>
+		</region>
+		<region identify="G01000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G01000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIG01000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G01000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_G01000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G01000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_G01000.jpg</file>
+		</region>
+		<region identify="G22000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G22000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIG22000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G22000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_G22000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G22000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_G22000.jpg</file>
+		</region>
+		<region identify="G23000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G23000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIG23000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G23000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_G23000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G23000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_G23000.jpg</file>
+		</region>
+		<region identify="G26000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G26000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIG26000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G26000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_G26000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G26000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_G26000.jpg</file>
+		</region>
+		<region identify="G24000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G24000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIG24000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G24000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_G24000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\G24000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_G24000.jpg</file>
+		</region>
+		<region identify="H00000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H00000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIH00000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H00000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_H00000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H00000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_H00000.jpg</file>
+		</region>
+		<region identify="H21000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H21000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIH21000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H21000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_H21000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H21000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_H21000.jpg</file>
+		</region>
+		<region identify="H23000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H23000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIH23000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H23000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_H23000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H23000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_H23000.jpg</file>
+		</region>
+		<region identify="H02000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H02000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIH02000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H02000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_H02000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H02000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_H02000.jpg</file>
+		</region>
+		<region identify="H25000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H25000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIH25000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H25000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_H25000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H25000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_H25000.jpg</file>
+		</region>
+		<region identify="H03000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H03000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIH03000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H03000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_H03000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H03000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_H03000.jpg</file>
+		</region>
+		<region identify="H01000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H01000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIH01000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H01000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_H01000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H01000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_H01000.jpg</file>
+		</region>
+		<region identify="H22000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H22000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIH22000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H22000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_H22000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\H22000\VGT_NDVI_ZCUR_202101010000_COOD_H8_AHI_H22000.jpg</file>
+		</region>
+		<region identify="O10000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O10000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIO10000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O10000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_O10000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\O10000\NDVI_QHS_O10000.jpg</file>
+		</region>
+		<region identify="O20000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O20000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIO20000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O20000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_O20000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\O20000\NDVI_QHS_O20000.jpg</file>
+		</region>
+		<region identify="O30000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O30000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIO30000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O30000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_O30000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\O30000\NDVI_QHS_O30000.jpg</file>
+		</region>
+		<region identify="O40000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O40000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIO40000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O40000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_O40000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\O40000\NDVI_QHS_O40000.jpg</file>
+		</region>
+		<region identify="O50000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O50000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIO50000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O50000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_O50000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\O50000\NDVI_QHS_O50000.jpg</file>
+		</region>
+		<region identify="O60000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O60000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIO60000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O60000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_O60000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\O60000\NDVI_QHS_O60000.jpg</file>
+		</region>
+		<region identify="O61000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O61000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIO61000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O61000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_O61000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\O61000\NDVI_QHS_O61000.jpg</file>
+		</region>
+		<region identify="O80000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O80000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIO80000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O80000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_O80000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\O80000\NDVI_QHS_O80000.jpg</file>
+		</region>
+		<region identify="O90000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O90000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIO90000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O90000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_O90000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\O90000\NDVI_QHS_O90000.jpg</file>
+		</region>
+		<region identify="O70000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O70000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIO70000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O70000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_O70000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\O70000\NDVI_QHS_O70000.jpg</file>
+		</region>
+		<region identify="O71000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O71000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIO71000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O71000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_O71000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\O71000\NDVI_QHS_O71000.jpg</file>
+		</region>
+		<region identify="O72000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O72000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIO72000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O72000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_O72000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\O72000\NDVI_QHS_O72000.jpg</file>
+		</region>
+		<region identify="O73000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O73000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIO73000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\O73000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_O73000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\O73000\NDVI_QHS_O73000.jpg</file>
+		</region>
+		<region identify="R10000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R10000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIR10000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R10000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_R10000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\R10000\NDVI_QHS_R10000.jpg</file>
+		</region>
+		<region identify="R20000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R20000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIR20000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R20000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_R20000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\R20000\NDVI_QHS_R20000.jpg</file>
+		</region>
+		<region identify="R30000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R30000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIR30000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R30000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_R30000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\R30000\NDVI_QHS_R30000.jpg</file>
+		</region>
+		<region identify="R40000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R40000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIR40000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R40000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_R40000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\R40000\NDVI_QHS_R40000.jpg</file>
+		</region>
+		<region identify="R50000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R50000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIR50000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R50000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_R50000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\R50000\NDVI_QHS_R50000.jpg</file>
+		</region>
+		<region identify="R51000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R51000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIR51000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R51000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_R51000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\R51000\NDVI_QHS_R51000.jpg</file>
+		</region>
+		<region identify="R52000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R52000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIR52000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R52000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_R52000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\R52000\NDVI_QHS_R52000.jpg</file>
+		</region>
+		<region identify="R53000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R53000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIR53000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R53000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_R53000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\R53000\NDVI_QHS_R53000.jpg</file>
+		</region>
+		<region identify="R54000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R54000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIR54000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R54000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_R54000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\R54000\NDVI_QHS_R54000.jpg</file>
+		</region>
+		<region identify="R55000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R55000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIR55000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R55000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_R55000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\R55000\NDVI_QHS_R55000.jpg</file>
+		</region>
+		<region identify="R56000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R56000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIR56000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R56000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_R56000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\R56000\NDVI_QHS_R56000.jpg</file>
+		</region>
+		<region identify="R60000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R60000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIR60000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R60000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_R60000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\R60000\NDVI_QHS_R60000.jpg</file>
+		</region>
+		<region identify="R70000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R70000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIR70000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R70000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_R70000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\R70000\NDVI_QHS_R70000.jpg</file>
+		</region>
+		<region identify="R80000">
+			<file type=".tif">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R80000\VGT_NDVI_RCUR_202101010000_COOD_H8_AHIR80000.tif</file>
+			<file type=".xlsx">E:\zhangtao\exercise3\htht\output\NDVI\202101\202101010000_COAM\R80000\VGT_NDVI_XCUR_202101010000_COOD_H8_AHI_R80000.xls</file>
+			<file type=".jpg">E:\zhangtao\exercise3\htht\output\NDVI\COOD\202101\202101010000\R80000\NDVI_QHS_R80000.jpg</file>
+		</region>
+		<mosaicFile>
+			<file type=".tif">NDVI20210101T000000002Z.tif</file>
+		</mosaicFile>
+		<extent>
+			<XMinx>89.11200981945342</XMinx>
+			<XMaxx>103.31259531901648</XMaxx>
+			<YMiny>31.440699305433586</YMiny>
+			<YMaxy>39.21629163739543</YMaxy>
+		</extent>
+	</outFiles>
+	<tables/>
+</xml>
