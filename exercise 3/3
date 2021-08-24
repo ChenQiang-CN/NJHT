@@ -1,1 +1,48 @@
 
+import os
+import numpy as np
+from osgeo import gdal
+import glob
+import time
+
+list_tif = glob.glob("C:\Users\易江\Desktop\遥感算法基础培训\2\导出\202106280700.tif")
+out_path = 'C:\Users\易江\Desktop\遥感算法基础培训\3\导出'
+
+start = time.perf_counter()
+for tif in list_tif:
+    in_ds = gdal.Open(tif)
+    # 获取文件所在路径以及不带后缀的文件名
+    (filepath, fullname) = os.path.split(tif)
+    (prename, suffix) = os.path.splitext(fullname)
+    if in_ds is None:
+        print('Could not open the file ' + tif)
+    else:
+        # 将MODIS原始数据类型转化为反射率
+        red = in_ds.GetRasterBand(3).ReadAsArray() * 0.0001
+        nir = in_ds.GetRasterBand(4).ReadAsArray() * 0.0001
+        np.seterr(divide='ignore', invalid='ignore')
+        ndvi = (nir - red) / (nir + red)
+        ndvi[ndvi > 1] = 0  # 过滤异常值
+        ndvi[ndvi < 0] = 0  # 过滤异常值
+        # 将NAN转化为0值
+        nan_index = np.isnan(ndvi)
+        ndvi[nan_index] = 0
+        ndvi = ndvi.astype(np.float32)
+        # 将计算好的NDVI保存为GeoTiff文件
+        gtiff_driver = gdal.GetDriverByName('GTiff')
+        # 批量处理需要注意文件名是变量，这里截取对应原始文件的不带后缀的文件名
+        out_ds = gtiff_driver.Create(out_path + prename + '_ndvi.tif',
+                                     ndvi.shape[1], ndvi.shape[0], 1, gdal.GDT_Float32)
+        # 将NDVI数据坐标投影设置为原始坐标投影
+        out_ds.SetProjection(in_ds.GetProjection())
+        out_ds.SetGeoTransform(in_ds.GetGeoTransform())
+        out_band = out_ds.GetRasterBand(1)
+        out_band.WriteArray(ndvi)
+        out_band.FlushCache()
+
+elapsed = (time.perf_counter() - start)
+
+print("影像输出完毕")
+
+
+#只会到这了QAQ
