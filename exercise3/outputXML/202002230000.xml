@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml identify="H8_NDVI">
+	<log>
+		<status>1</status>
+		<info>Success!</info>
+	</log>
+	<outFiles>
+		<region identify="QHS">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\QHS\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_QHS.docx</file>
+		</region>
+		<region identify="A00000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\A00000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_A00000.docx</file>
+		</region>
+		<region identify="A06000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\A06000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_A06000.docx</file>
+		</region>
+		<region identify="A02000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\A02000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_A02000.docx</file>
+		</region>
+		<region identify="A03000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\A03000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_A03000.docx</file>
+		</region>
+		<region identify="A23000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\A23000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_A23000.docx</file>
+		</region>
+		<region identify="A04000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\A04000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_A04000.docx</file>
+		</region>
+		<region identify="A05000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\A05000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_A05000.docx</file>
+		</region>
+		<region identify="A21000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\A21000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_A21000.docx</file>
+		</region>
+		<region identify="B00000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\B00000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_B00000.docx</file>
+		</region>
+		<region identify="B03000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\B03000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_B03000.docx</file>
+		</region>
+		<region identify="B02000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\B02000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_B02000.docx</file>
+		</region>
+		<region identify="B23000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\B23000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_B23000.docx</file>
+		</region>
+		<region identify="B25000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\B25000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_B25000.docx</file>
+		</region>
+		<region identify="B24000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\B24000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_B24000.docx</file>
+		</region>
+		<region identify="B22000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\B22000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_B22000.docx</file>
+		</region>
+		<region identify="C00000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\C00000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_C00000.docx</file>
+		</region>
+		<region identify="C23000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\C23000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_C23000.docx</file>
+		</region>
+		<region identify="C21000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\C21000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_C21000.docx</file>
+		</region>
+		<region identify="C24000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\C24000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_C24000.docx</file>
+		</region>
+		<region identify="C22000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\C22000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_C22000.docx</file>
+		</region>
+		<region identify="D00000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\D00000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_D00000.docx</file>
+		</region>
+		<region identify="D24000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\D24000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_D24000.docx</file>
+		</region>
+		<region identify="D23000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\D23000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_D23000.docx</file>
+		</region>
+		<region identify="D01000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\D01000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_D01000.docx</file>
+		</region>
+		<region identify="D22000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\D22000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_D22000.docx</file>
+		</region>
+		<region identify="E00000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\E00000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_E00000.docx</file>
+		</region>
+		<region identify="E22000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\E22000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_E22000.docx</file>
+		</region>
+		<region identify="E25000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\E25000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_E25000.docx</file>
+		</region>
+		<region identify="E24000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\E24000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_E24000.docx</file>
+		</region>
+		<region identify="E23000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\E23000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_E23000.docx</file>
+		</region>
+		<region identify="E21000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\E21000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_E21000.docx</file>
+		</region>
+		<region identify="F00000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\F00000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_F00000.docx</file>
+		</region>
+		<region identify="F21000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\F21000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_F21000.docx</file>
+		</region>
+		<region identify="F26000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\F26000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_F26000.docx</file>
+		</region>
+		<region identify="F22000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\F22000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_F22000.docx</file>
+		</region>
+		<region identify="F24000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\F24000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_F24000.docx</file>
+		</region>
+		<region identify="F25000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\F25000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_F25000.docx</file>
+		</region>
+		<region identify="F23000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\F23000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_F23000.docx</file>
+		</region>
+		<region identify="G00000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\G00000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_G00000.docx</file>
+		</region>
+		<region identify="G25000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\G25000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_G25000.docx</file>
+		</region>
+		<region identify="G01000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\G01000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_G01000.docx</file>
+		</region>
+		<region identify="G22000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\G22000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_G22000.docx</file>
+		</region>
+		<region identify="G23000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\G23000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_G23000.docx</file>
+		</region>
+		<region identify="G26000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\G26000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_G26000.docx</file>
+		</region>
+		<region identify="G24000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\G24000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_G24000.docx</file>
+		</region>
+		<region identify="H00000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\H00000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_H00000.docx</file>
+		</region>
+		<region identify="H21000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\H21000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_H21000.docx</file>
+		</region>
+		<region identify="H23000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\H23000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_H23000.docx</file>
+		</region>
+		<region identify="H02000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\H02000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_H02000.docx</file>
+		</region>
+		<region identify="H25000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\H25000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_H25000.docx</file>
+		</region>
+		<region identify="H03000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\H03000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_H03000.docx</file>
+		</region>
+		<region identify="H01000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\H01000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_H01000.docx</file>
+		</region>
+		<region identify="H22000">
+			<file type=".xlsx"/>
+			<file type=".docx">D:\SuanFa_Peixun\exercise_3\YG\H8_NDVI\COOD\202101\202101010000\H22000\H8_NDVI_WCUR_COOD_COOD_NPP_CIMISS_H22000.docx</file>
+		</region>
+		<region identify="O10000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="O20000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="O30000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="O40000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="O50000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="O60000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="O61000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="O80000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="O90000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="O70000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="O71000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="O72000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="O73000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="R10000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="R20000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="R30000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="R40000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="R50000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="R51000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="R52000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="R53000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="R54000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="R55000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="R56000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="R60000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="R70000">
+			<file type=".xlsx"/>
+		</region>
+		<region identify="R80000">
+			<file type=".xlsx"/>
+		</region>
+		<mosaicFile/>
+		<extent/>
+	</outFiles>
+	<tables/>
+</xml>
