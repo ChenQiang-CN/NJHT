@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml identify="QHS_NDVI">
+    <input des="输入文件" identify="inputFile" type="string">F:\HTHT\NJHT\Luren\exercise3\data\H08_20210722_0400_MULT_geo_cor.tif</input>
+    <input des="区域信息" identify="areaID" type="string">QHS</input>
+    <input des="期次" identify="issue" type="string">202107220400</input>
+    <input des="周期" identify="cycle" type="string">COOD</input>
+    <output des="输出目录" identify="outFolder" type="string">F:\HTHT\NJHT\Luren\exercise3\data\Output</output>
+    <output des="输出xml路径" identify="outXMLPath" type="string">F:\HTHT\NJHT\Luren\exercise3\data\Output\202107220400.xml</output>
+    <output des="输出log路径" identify="outLogPath" type="string">F:\HTHT\NJHT\Luren\exercise3\data\Output\202107220400.log</output>
+</xml>
